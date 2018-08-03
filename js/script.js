@@ -1,6 +1,7 @@
 const allSlide = document.querySelectorAll('img');
 
 function status() {
+	
 	const pageHeight = this.scrollY;
 	const slideglobalHeight = this.offsetTop + this.height;
 
