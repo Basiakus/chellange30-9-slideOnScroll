@@ -1,7 +1,7 @@
 const allSlide = document.querySelectorAll('img');
 
-function status() {
-	
+function slideOnScroll() {
+
 	const pageHeight = this.scrollY;
 	const slideglobalHeight = this.offsetTop + this.height;
 
@@ -18,4 +18,4 @@ function status() {
 	});
 }
 
-window.addEventListener('scroll', status);
+window.addEventListener('scroll', slideOnScroll);
